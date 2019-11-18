@@ -1,4 +1,4 @@
-const [Client, Attachment} = require('discord.js');
+const {Client, Attachment} = require('discord.js');
 const bot = new Client();
 
 const token = 'NjQ1OTYzNzk1Mzg2MjA0MTgw.XdMojQ.cwDJWUhbV60D9KcE5PU9o2xws0I';
