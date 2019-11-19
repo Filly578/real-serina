@@ -170,7 +170,7 @@ bot.on('message', msg=>{
             
         break;
     }
-  }   
+}   
   
 
     
