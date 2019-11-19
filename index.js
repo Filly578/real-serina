@@ -13,7 +13,7 @@ bot.on('ready', () =>{
 
 bot.on('message', msg=>{
   let args = msg.content.substring(PREFIX.length).split(" ");
-
+}
   switch(args[0]){
         case 'sword':
             const swordgif = new Attachment('https://media3.giphy.com/media/dv63Zr3IjzRq8/source.gif')
@@ -171,7 +171,7 @@ bot.on('message', msg=>{
             
         break;
         }   
-    }     
+  
 
     
 bot.login(process.env.token);
